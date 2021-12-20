@@ -48,7 +48,7 @@ pytest -v main.py(中文乱码, 将conftest 的注释打开就行)
 pytest -v -s main.py
 ```
 
-2. 生成报告 使用pytest=html
+2. 生成报告 使用pytest-html
 
 ```
 pytest main.py --html=./report/report.html --self-contained-html
